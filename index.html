@@ -402,6 +402,24 @@
                   </ul>
                 </div>
 
+                <div class="footer-form-section">
+                   
+                   <form class="footer-form">
+                    <label for="Email">
+                    <span class="footer-form-title">SUBSCRIBE TO THE NEWSLETTER</span>
+                    <input class="footer-input-space" type="email" name="email" id="Email" placeholder="Email">
+                    <button type="submit" class="footer-form-button"><div class="footer-form-button-details"><span class="footer-form-button-text">Subscribe</span>
+                        <span class="footer-form-button-icon">
+                            <svg width="24" height="24" class="footer-form-icon">
+                            <use href="./images/icons.svg#icon-send"></use>
+                            </svg>
+                        </span>
+                        </div>
+                    </button>
+                    </label>
+                   </form>
+                </div>
+                
                 </div>
 
         
@@ -413,6 +431,62 @@
             <svg width="11px" height="11px" class="team-social-icon">
                 <use href="./images/icons.svg#icon-close"></use>
             </svg></button>
+            <p class="modal-window-title">Leave your information and we'll call you back</p>
+            <form class="modal-window-form" action="/" autocomplete="on" name="register">
+            <div class="supplied-information-item">
+              <label for="Name" class="supplied-information">
+              <span class="personal-details">Name</span>
+              <span class="input"><input class="input-space" type="text" name="name" id="Name" placeholder="Enter your name" autofocus>
+            <svg width="12" height="12" class="form-icon">
+                <use href="./images/icons.svg#icon-Portrait"></use>
+            </svg>
+            </span>
+              </label>
+            </div>
+
+            <div class="supplied-information-item">
+            <label for="Number" class="supplied-information">
+                <span class="personal-details">Telephone</span>
+                <span class="input"><input class="input-space" type="number" name="number" id="Number"
+                        placeholder="Enter your phone number" autofocus>
+                    <svg width="12" height="12" class="form-icon">
+                        <use href="./images/icons.svg#icon-Telephone"></use>
+                    </svg>
+                </span>
+            </label>
+            </div>
+
+            <div class="supplied-information-item">
+            <label for="Email" class="supplied-information">
+                <span class="personal-details">E-mail</span>
+                <span class="input"><input class="input-space" type="email" name="email" id="E-mail"
+                        placeholder="Enter your e-mail address" autofocus>
+                    <svg width="12" height="12" class="form-icon">
+                        <use href="./images/icons.svg#icon-Email"></use>
+                    </svg>
+                </span>
+            </label>
+            </div>
+
+            <div class="supplied-information-comment">
+                <label for="Comments" class="supplied-information">
+                    <span class="personal-details">Comments</span>
+                    <span class="input"><textarea class="comments-input-space" type="text" name="comments" id="Comments"
+                            placeholder="Enter your comment" autofocus></textarea>
+                        
+                    </span>
+                </label>
+            </div>
+            
+            <div class="checkbox-section">
+            <label for="Checkbox">
+             <input type="checkbox" class="checkbox"><span class="checkbox-text">I agree with the newsletter and accept the Terms and</span>
+            <span class="checkbox-text-contd">Conditions</span>
+            </label>
+            </div>
+            
+            <button type="submit" class="send-button">Send</button>
+            </form>
         </div>    
         </div>
         <script src="./js/modal.js" type="module"></script>

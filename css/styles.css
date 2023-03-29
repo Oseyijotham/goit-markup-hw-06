@@ -801,6 +801,218 @@ color: #FFFFFF;
 
 .modal-button:hover,
 .modal-button:focus {
-    background-color: red;
+
+    color: var(--accent-color);
+}
+
+.modal-window-title {
+    color: #212121;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: calc(23/20);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.modal-window-form {
+margin-top: 12px;
+margin-left: 40px;
+}
+
+.supplied-information-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.supplied-information-comment {
+    margin-bottom: 20px;
+}
+
+.personal-details {
+    
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(14/12);
+    margin-bottom: 4px;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+
+.input-space {
+    width: 448px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding-left: 42px;
+    transition: border-color var(--time) var(--time-function);
+}
+
+.input {
+position: relative;
+display: block;
+width: 100%;
+height: 100%;
+transition: color var(--time) var(--time-function);
+}
+
+.form-icon {
+   position: absolute;
+   left:15px;
+   top:14px;
+}
+
+.comments-input {
+    
+}
+
+.comments-input-space {
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    width: 448px;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.01em;
+    transition: border-color var(--time) var(--time-function);
+}
+
+.checkbox-text {
+    margin-left: 9px;
+}
+
+.checkbox-text-contd {
+    display: block;
+    margin-left: 26px;
+}
+
+.checkbox-section {
+    margin-bottom: 30px;
+}
+
+.send-button {
+    padding: 10px 80px;
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
     color: #FFFFFF;
+    border: none;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: color var(--time) var(--time-function);
+}
+
+.send-button:hover,
+.send-button:focus {
+    color: #212121;
+}
+
+.input:hover,
+.input:focus {
+    color: var(--accent-color);
+}
+
+.input-space:hover,
+.input-space:focus {
+    border-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.form-icon {
+    fill: currentColor;
+}
+
+.comments-input-space:hover,
+.comments-input-space:focus {
+border-color: var(--accent-color);
+cursor: pointer;
+}
+
+.footer-form-section {
+    margin-left: 93px;
+}
+
+.footer-form-title {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-input-space {
+    margin-top: 20px;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2F303A;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    transition: border-color var(--time) var(--time-function);
+}
+
+.footer-input-space:hover,
+.footer-input-space:focus {
+    border-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.footer-form-icon {
+    fill: currentColor;
+}
+
+.footer-form-button {
+    margin-left: 12px;
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 48px;
+    padding-right: 28px;
+    transition: color var(--time) var(--time-function);
+    border: none;
+}
+    
+    .footer-form-button:hover,
+    .footer-form-button:focus {
+        color: #212121;
+    }
+
+.footer-form-button-details {
+    display: flex;
+    align-items: center;
+}
+
+.footer-form-button-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0.06em;
+}
+
+.footer-form-button-icon {
+    margin-left: 10px;
 }
