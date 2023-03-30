@@ -887,13 +887,32 @@ transition: color var(--time) var(--time-function);
     transition: border-color var(--time) var(--time-function);
 }
 
-.checkbox-text {
-    margin-left: 9px;
+.checkbox-square {
+    width: 16px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13px;
+    color: #FFFFFF;
 }
 
-.checkbox-text-contd {
-    display: block;
-    margin-left: 26px;
+.check-icon {
+fill: currentColor;
+}
+
+.checkbox-input {
+    display: flex;
+}
+
+.checkbox-text {
+    margin-left: 7px;
+}
+
+.checkbox:checked +.checkbox-input >  .checkbox-square {
+    background-color: #2196F3;
 }
 
 .checkbox-section {
